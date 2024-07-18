@@ -3,7 +3,7 @@ module ttyproxy
 go 1.22.5
 
 require (
-	github.com/rs/cors v1.11.0
+	github.com/mattn/go-tty v0.0.5
 	github.com/rs/zerolog v1.33.0
 	golang.org/x/term v0.22.0
 	nhooyr.io/websocket v1.8.11

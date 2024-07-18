@@ -56,7 +56,7 @@ func run() error {
 		log.Printf("terminating: %v", sig)
 	}
 
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*10)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*1)
 	defer cancel()
 
 	return s.Shutdown(ctx)
