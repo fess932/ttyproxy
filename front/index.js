@@ -10,6 +10,7 @@ fitAddon.fit();
 
 const queryString = window.location.search.replace("?", "");
 console.log(queryString);
+// http://localhost:3000/?ws://localhost:4444/pts/3
 
 const webSocket = new WebSocket(queryString);
 
